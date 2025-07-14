@@ -1,0 +1,27 @@
+# Ambiente virtual
+venv/
+env/
+
+# Arquivos de configuração sensíveis
+config/.env
+*.env
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache e temporários
+.cache/
+*.DS_Store
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos de áudio temporários (se usados em audio_tools.py)
+*.mp3
+*.wav
